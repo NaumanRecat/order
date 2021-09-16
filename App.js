@@ -1,17 +1,15 @@
+import 'react-native-gesture-handler';
 import React from 'react';
 import {
   Text,
   View,
 } from 'react-native';
+import { ScreenNavigator } from './src/navigator/ScreenNavigator';
 
 const App = () => {
 
   return (
-    <View>
-      <Text>
-        Nomi
-      </Text>
-    </View>
+    <ScreenNavigator/>
   );
 };
 export default App;
