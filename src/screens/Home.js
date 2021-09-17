@@ -6,7 +6,7 @@ export class Home extends React.Component{
         return(
             <View style={{
                 flex:1,
-                backgroundColor:'#ada',
+                // backgroundColor:'#ada',
             }}>
                 <TouchableOpacity style={{
                 flex:1,
