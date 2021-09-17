@@ -5,6 +5,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import {Demo} from '../screens/Demo';
 import {TabNavigator} from '../navigator/TabNavigator';
+import {Splash} from '../screens/Splash';
 
 function HomeScreen() {
   return (
@@ -20,7 +21,8 @@ export const ScreenNavigator =()=>  {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-      <Stack.Screen name="TabNavigator" component={TabNavigator} />
+      <Stack.Screen name="Splash" component={Splash} options={{headerShown:false}} />
+      {/* <Stack.Screen name="TabNavigator" component={TabNavigator} /> */}
         {/* <Stack.Screen name="HomeScreen" component={HomeScreen} /> */}
         {/* <Stack.Screen name="Demo" component={Demo} /> */}
       </Stack.Navigator>
