@@ -1,19 +1,9 @@
 import React from 'react';
-import { View, Text } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import {Demo} from '../screens/Demo';
-import {TabNavigator} from '../navigator/TabNavigator';
-import {Splash} from '../screens/Splash';
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Home Screen </Text>
-    </View>
-  );
-}
+import {TabNavigator} from '../navigator/TabNavigator';
 
 const Stack = createNativeStackNavigator();
 
