@@ -42,7 +42,7 @@ export class Splash extends React.Component{
                     
                  <Text style={{
                      fontSize:h('3.5%'),
-                     color:'orange',
+                     color:'E63733',
                      fontWeight:'500',
                  }}>
                     {`P E R T H`}
@@ -53,7 +53,7 @@ export class Splash extends React.Component{
                     
                     <Text style={{
                         fontSize:h('4.5%'),
-                        color:'orange',
+                        color:'E63733',
                         fontWeight:'900',
                     }}>
                        {`
@@ -75,7 +75,7 @@ export class Splash extends React.Component{
                     <TouchableOpacity style={{
                         height:h('11%'),
                         width:w('93%'),
-                        backgroundColor:'#FDC1C1',
+                        backgroundColor:'#E63733',
                         borderRadius: h('12%'),
                         alignItems:'center',
                         justifyContent:'center',
